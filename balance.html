@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Баланс</title>
+  <!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script>
+  <link rel="stylesheet" type="text/css" href="balance.css">
+</head>
+<body>
+  <!-- Yandex.RTB R-A-2243454-19 -->
+<script>window.yaContextCb.push(()=>{
+	Ya.Context.AdvManager.render({
+		"blockId": "R-A-2243454-19",
+		"type": "fullscreen",
+		"platform": "touch"
+	})
+})
+</script>
+  <div class="container">
+    <h1>Твой баланс</h1>
+    <div id="balance">Баланс: <span id="balance-value">0</span></div>
+    <div class="balance-buttons">
+      <a class="balance-button" href="vivodpage.html">Вывести</a>
+      <button class="balance-button" id="refresh-button">Обнулить</button>
+    </div>
+  </div>
+  
+  <script src="balance.js"></script>
+</body>
+</html>
